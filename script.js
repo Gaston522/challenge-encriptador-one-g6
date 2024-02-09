@@ -1,4 +1,4 @@
-const textoArea = document.querySelector(".textA");
+const textoArea = document.querySelector(".textA");//Variable que contiene el elemento textarea
 
 function encriptarDesencriptar(op) {//Funcion que encripta o desencripta dependiendo del valor de su parametro
     if (textoArea.value != "") {
@@ -23,7 +23,7 @@ function bCopiar() {
 }
 
 function validarTexto() {
-        // Filtrar caracteres no deseados usando una expresión regular
-        textoArea.value = textoArea.value.replace(/[^a-z\s]/g, '');
+    // Filtrar caracteres no deseados usando una expresión regular
+     textoArea.value = textoArea.value.replace(/[^a-z\s]/g, '');
     
 }
