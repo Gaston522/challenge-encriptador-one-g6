@@ -16,7 +16,7 @@
                 <div class="container-main">
                     <div class="consulta">
                         <textarea class="textA" cols="30" rows="10" placeholder="Escriba aquí. ❗ Solamente minúsculas sin acento" 
-                                    onkeypress="return ( event.charCode == 32 ||
+                                    oninput="return ( event.charCode == 32 ||
                                     event.charCode >= 97 && event.charCode <= 122)"></textarea>
                         <div class="container-botones">
                             <button class="botones" onclick="encriptarDesencriptar('encriptar')">Encriptar</button>
