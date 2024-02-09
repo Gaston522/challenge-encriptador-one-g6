@@ -15,9 +15,7 @@
             <main>
                 <div class="container-main">
                     <div class="consulta">
-                        <textarea class="textA" cols="30" rows="10" placeholder="Escriba aquí. ❗ Solamente minúsculas sin acento" 
-                                    oninput="return ( event.charCode == 32 ||
-                                    event.charCode >= 97 && event.charCode <= 122)"></textarea>
+                        <textarea class="textA" oninput="validarTexto()" cols="30" rows="10" placeholder="Escriba aquí. ❗ Solamente minúsculas sin acento"></textarea>
                         <div class="container-botones">
                             <button class="botones" onclick="encriptarDesencriptar('encriptar')">Encriptar</button>
                             <button class="botones" onclick="encriptarDesencriptar('desencriptar')">Desencriptar</button>
@@ -39,7 +37,7 @@
                 </div>
             </main>
             <footer>
-                <span>&copy; Gastón C.</span>
+                <span>&copy; Gastón C. 2024</span>
             </footer>
         </div>
     </body>
